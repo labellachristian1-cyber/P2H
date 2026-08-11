@@ -1,1 +1,162 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Prepared 2 Help</title>
+<meta name="description" content="Get in touch with Prepared 2 Help — ask about volunteering, scholarships, donations, or partnerships.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<header class="site-header">
+  <div class="nav-row">
+    <a class="brand" href="index.html"><img src="assets/logo.jpg" alt="Prepared 2 Help logo"></a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html" class="active">Contact Us</a>
+      <a class="nav-cta" href="donate.html">Give Now</a>
+    </nav>
+  </div>
+</header>
+ 
+<section class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow" style="color:#E8A33D;">Contact Us</span>
+    <h1>We'd love to hear from you.</h1>
+    <p>Questions about volunteering, scholarships, donations, or partnering with us? Send a message and we'll get back to you.</p>
+  </div>
+</section>
+ 
+<section class="section">
+  <div class="wrap contact-grid">
+ 
+    <!-- INFO -->
+    <div>
+      <h2 style="font-size:1.4rem;">Get In Touch</h2>
+      <div class="info-list">
+        <div class="info-item">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4859A8" stroke-width="2"><path d="M4 21V9l8-6 8 6v12M9 21v-6h6v6"/></svg></div>
+          <div><strong>Address</strong>[123 Main Street, City, ST ZIP]</div>
+        </div>
+        <div class="info-item">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4859A8" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg></div>
+          <div><strong>Email</strong><a href="mailto:info@prepared2help.org">info@prepared2help.org</a></div>
+        </div>
+        <div class="info-item">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4859A8" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .3 2 .6 2.9a2 2 0 01-.5 2.1L8 9.9a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.5 2.9.6a2 2 0 011.8 2.1z"/></svg></div>
+          <div><strong>Phone</strong>[phone number]</div>
+        </div>
+        <div class="info-item">
+          <div class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4859A8" stroke-width="2"><path d="M12 8v4l3 3M12 2a10 10 0 100 20 10 10 0 000-20z"/></svg></div>
+          <div><strong>Hours</strong>[e.g. Volunteer inquiries answered within 2–3 business days]</div>
+        </div>
+      </div>
+ 
+      <h2 style="font-size:1.1rem; margin-top:34px;">Follow Along</h2>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9h3V5h-3c-2.2 0-4 1.8-4 4v2H7v4h3v6h4v-6h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+      </div>
+ 
+      <div class="sherrie-box" style="margin-top:30px;">
+        <div class="avatar">S</div>
+        <div>
+          <h3 style="font-size:1rem; margin-bottom:.2em;">Donation questions?</h3>
+          <p style="color:var(--ink-soft); margin:0; font-size:.92rem;">Ask Sherrie directly — select "Donation Question" in the form, or email <a href="mailto:sherrie@prepared2help.org" style="color:var(--blue-primary); font-weight:600;">[sherrie@prepared2help.org]</a>.</p>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- FORM -->
+    <div>
+      <form class="contact-form">
+        <div class="form-success">Thanks for reaching out! This is a demo form — connect it to a form service (e.g. Formspree, Netlify Forms) so messages actually reach your inbox.</div>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="reason">Reason for contact</label>
+          <select id="reason" name="reason">
+            <option>General Question</option>
+            <option>Volunteer Interest</option>
+            <option>Donation Question</option>
+            <option>Scholarship Question</option>
+            <option>Partnership Inquiry</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message</button>
+        <p class="form-note">By submitting, you agree to be contacted by Prepared 2 Help about your inquiry.</p>
+      </form>
+    </div>
+  </div>
+</section>
+ 
+<section class="section section-alt">
+  <div class="wrap" style="text-align:center;">
+    <p style="color:var(--ink-soft); margin-bottom:16px;">Prefer to give directly, or learn more about our board first?</p>
+    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+      <a href="donate.html" class="btn btn-primary">Go to Donate Page</a>
+      <a href="about.html" class="btn btn-outline-blue">Meet Our Board</a>
+    </div>
+  </div>
+</section>
+ 
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-brand"><img src="assets/logo.jpg" alt=""><span>Prepared 2 Help</span></div>
+      <p style="font-size:.9rem; color:rgba(255,255,255,.65); max-width:32ch;">[Insert full mission statement here.] Prepared to help our neighbors with food, clothing, shelter, and opportunity.</p>
+      <div class="footer-qr">
+        <div class="mini-qr" title="PayPal QR — replace with real code"></div>
+        <div class="mini-qr" title="Venmo QR — replace with real code"></div>
+      </div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:info@prepared2help.org">info@prepared2help.org</a>
+      <a href="#">[123 Main Street, City, ST ZIP]</a>
+    </div>
+    <div>
+      <h4>Follow Along</h4>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9h3V5h-3c-2.2 0-4 1.8-4 4v2H7v4h3v6h4v-6h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; <span id="year"></span> Prepared 2 Help. All rights reserved.</span>
+    <span>501(c)(3) nonprofit organization</span>
+  </div>
+</footer>
+ 
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>
