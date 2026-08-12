@@ -383,3 +383,9 @@ form.contact-form{ background:#fff; border:3px solid var(--blue-deep); border-ra
   width: 48px;
   height: 24px;
 }
+
+.qr-card:nth-child(3) .qr-box img{
+  object-fit: cover;
+  padding: 0;
+  background: none;
+}
