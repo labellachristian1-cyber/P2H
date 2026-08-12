@@ -10,16 +10,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
  
-  var form = document.querySelector('.contact-form');
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var success = document.querySelector('.form-success');
-      if (success) {
-        success.classList.add('show');
-        success.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-      form.reset();
-    });
-  }
-});
